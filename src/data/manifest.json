@@ -1,0 +1,842 @@
+{
+  "projects": [
+    {
+      "slug": "balloon-dreams",
+      "title": "Balloon dreams",
+      "items": [
+        {
+          "type": "video",
+          "src": "/media/balloon-dreams/01.mp4",
+          "poster": "/media/balloon-dreams/01.jpg",
+          "w": 834,
+          "h": 1112
+        },
+        {
+          "type": "video",
+          "src": "/media/balloon-dreams/02.mp4",
+          "poster": "/media/balloon-dreams/02.jpg",
+          "w": 834,
+          "h": 1112
+        },
+        {
+          "type": "video",
+          "src": "/media/balloon-dreams/03.mp4",
+          "poster": "/media/balloon-dreams/03.jpg",
+          "w": 834,
+          "h": 1112
+        },
+        {
+          "type": "image",
+          "src": "/media/balloon-dreams/04.webp",
+          "w": 1728,
+          "h": 2304
+        },
+        {
+          "type": "image",
+          "src": "/media/balloon-dreams/05.webp",
+          "w": 1728,
+          "h": 2304
+        },
+        {
+          "type": "image",
+          "src": "/media/balloon-dreams/06.webp",
+          "w": 1728,
+          "h": 2304
+        },
+        {
+          "type": "video",
+          "src": "/media/balloon-dreams/07.mp4",
+          "poster": "/media/balloon-dreams/07.jpg",
+          "w": 834,
+          "h": 1112
+        },
+        {
+          "type": "image",
+          "src": "/media/balloon-dreams/08.webp",
+          "w": 1728,
+          "h": 2304
+        }
+      ]
+    },
+    {
+      "slug": "coral-capsule",
+      "title": "Coral capsule",
+      "items": [
+        {
+          "type": "video",
+          "src": "/media/coral-capsule/01.mp4",
+          "poster": "/media/coral-capsule/01.jpg",
+          "w": 1080,
+          "h": 1920
+        },
+        {
+          "type": "image",
+          "src": "/media/coral-capsule/02.webp",
+          "w": 1200,
+          "h": 960
+        },
+        {
+          "type": "image",
+          "src": "/media/coral-capsule/03.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/coral-capsule/04.webp",
+          "w": 1800,
+          "h": 2390
+        },
+        {
+          "type": "image",
+          "src": "/media/coral-capsule/05.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/coral-capsule/06.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/coral-capsule/07.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/coral-capsule/08.webp",
+          "w": 1800,
+          "h": 2390
+        },
+        {
+          "type": "image",
+          "src": "/media/coral-capsule/09.webp",
+          "w": 1300,
+          "h": 1726
+        }
+      ]
+    },
+    {
+      "slug": "dizzy-furry",
+      "title": "Dizzy Furry",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/dizzy-furry/01.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/dizzy-furry/02.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/dizzy-furry/03.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/dizzy-furry/04.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/dizzy-furry/05.webp",
+          "w": 928,
+          "h": 1232
+        }
+      ]
+    },
+    {
+      "slug": "drop-flower",
+      "title": "Drop Flower",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/drop-flower/01.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/02.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/03.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/04.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/05.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/06.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/07.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/08.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/09.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/10.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/11.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/12.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/drop-flower/13.webp",
+          "w": 928,
+          "h": 1232
+        }
+      ]
+    },
+    {
+      "slug": "eyes-market",
+      "title": "Eyes Market",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/eyes-market/01.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/eyes-market/02.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/eyes-market/03.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/eyes-market/04.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/eyes-market/05.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/eyes-market/06.webp",
+          "w": 928,
+          "h": 1232
+        }
+      ]
+    },
+    {
+      "slug": "eyes-royalty",
+      "title": "Eyes Royalty",
+      "items": [
+        {
+          "type": "video",
+          "src": "/media/eyes-royalty/01.mp4",
+          "poster": "/media/eyes-royalty/01.jpg",
+          "w": 834,
+          "h": 1112
+        },
+        {
+          "type": "video",
+          "src": "/media/eyes-royalty/02.mp4",
+          "poster": "/media/eyes-royalty/02.jpg",
+          "w": 834,
+          "h": 1112
+        },
+        {
+          "type": "image",
+          "src": "/media/eyes-royalty/03.webp",
+          "w": 864,
+          "h": 1184
+        },
+        {
+          "type": "image",
+          "src": "/media/eyes-royalty/04.webp",
+          "w": 864,
+          "h": 1184
+        },
+        {
+          "type": "image",
+          "src": "/media/eyes-royalty/05.webp",
+          "w": 864,
+          "h": 1184
+        }
+      ]
+    },
+    {
+      "slug": "me-and-the-imposible",
+      "title": "Me & the imposible",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/me-and-the-imposible/01.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/me-and-the-imposible/02.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/me-and-the-imposible/03.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/me-and-the-imposible/04.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/me-and-the-imposible/05.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/me-and-the-imposible/06.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/me-and-the-imposible/07.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/me-and-the-imposible/08.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "video",
+          "src": "/media/me-and-the-imposible/09.mp4",
+          "poster": "/media/me-and-the-imposible/09.jpg",
+          "w": 1080,
+          "h": 1430
+        }
+      ]
+    },
+    {
+      "slug": "mythical-creatures",
+      "title": "Mythical Creatures",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/mythical-creatures/01.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/mythical-creatures/02.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/mythical-creatures/03.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "video",
+          "src": "/media/mythical-creatures/04.mp4",
+          "poster": "/media/mythical-creatures/04.jpg",
+          "w": 1080,
+          "h": 1430
+        }
+      ]
+    },
+    {
+      "slug": "queens-of-floating-life",
+      "title": "Queens of floating life",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/01.webp",
+          "w": 1024,
+          "h": 1024
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/02.webp",
+          "w": 1024,
+          "h": 1024
+        },
+        {
+          "type": "video",
+          "src": "/media/queens-of-floating-life/03.mp4",
+          "poster": "/media/queens-of-floating-life/03.jpg",
+          "w": 720,
+          "h": 1280
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/04.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/05.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/06.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/07.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/08.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/09.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/10.webp",
+          "w": 1024,
+          "h": 1024
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-floating-life/11.webp",
+          "w": 1024,
+          "h": 1024
+        }
+      ]
+    },
+    {
+      "slug": "queens-of-the-sea",
+      "title": "Queens of the sea",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/queens-of-the-sea/01.webp",
+          "w": 816,
+          "h": 1456
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-the-sea/02.webp",
+          "w": 816,
+          "h": 1456
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-the-sea/03.webp",
+          "w": 816,
+          "h": 1456
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-the-sea/04.webp",
+          "w": 816,
+          "h": 1456
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-the-sea/05.webp",
+          "w": 816,
+          "h": 1456
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-the-sea/06.webp",
+          "w": 816,
+          "h": 1456
+        },
+        {
+          "type": "image",
+          "src": "/media/queens-of-the-sea/07.webp",
+          "w": 816,
+          "h": 1456
+        }
+      ]
+    },
+    {
+      "slug": "textures-sealife",
+      "title": "Textures Sealife",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/01.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/02.webp",
+          "w": 896,
+          "h": 1344
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/03.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/04.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/05.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/06.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/07.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/08.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/09.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/10.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/11.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/12.webp",
+          "w": 1792,
+          "h": 2688
+        },
+        {
+          "type": "image",
+          "src": "/media/textures-sealife/13.webp",
+          "w": 1792,
+          "h": 2688
+        }
+      ]
+    },
+    {
+      "slug": "the-eyes-chico",
+      "title": "The Eyes chico",
+      "items": [
+        {
+          "type": "video",
+          "src": "/media/the-eyes-chico/01.mp4",
+          "poster": "/media/the-eyes-chico/01.jpg",
+          "w": 1112,
+          "h": 834
+        },
+        {
+          "type": "video",
+          "src": "/media/the-eyes-chico/02.mp4",
+          "poster": "/media/the-eyes-chico/02.jpg",
+          "w": 1112,
+          "h": 834
+        },
+        {
+          "type": "video",
+          "src": "/media/the-eyes-chico/03.mp4",
+          "poster": "/media/the-eyes-chico/03.jpg",
+          "w": 834,
+          "h": 1112
+        },
+        {
+          "type": "image",
+          "src": "/media/the-eyes-chico/04.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/the-eyes-chico/05.webp",
+          "w": 928,
+          "h": 1232
+        },
+        {
+          "type": "image",
+          "src": "/media/the-eyes-chico/06.webp",
+          "w": 928,
+          "h": 1232
+        }
+      ]
+    },
+    {
+      "slug": "triology-systopic",
+      "title": "Triology systopic",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/triology-systopic/01.webp",
+          "w": 1792,
+          "h": 2304
+        },
+        {
+          "type": "image",
+          "src": "/media/triology-systopic/02.webp",
+          "w": 1728,
+          "h": 2368
+        },
+        {
+          "type": "image",
+          "src": "/media/triology-systopic/03.webp",
+          "w": 1800,
+          "h": 2390
+        }
+      ]
+    },
+    {
+      "slug": "undersea-madness",
+      "title": "UnderSea Madness",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/undersea-madness/01.webp",
+          "w": 1024,
+          "h": 1024
+        },
+        {
+          "type": "image",
+          "src": "/media/undersea-madness/02.webp",
+          "w": 1024,
+          "h": 1024
+        },
+        {
+          "type": "image",
+          "src": "/media/undersea-madness/03.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/undersea-madness/04.webp",
+          "w": 1800,
+          "h": 1800
+        },
+        {
+          "type": "image",
+          "src": "/media/undersea-madness/05.webp",
+          "w": 1800,
+          "h": 1800
+        }
+      ]
+    },
+    {
+      "slug": "underwater-oracle",
+      "title": "Underwater Oracle",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/01.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/02.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/03.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/04.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/05.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/06.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/07.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/08.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/09.webp",
+          "w": 1632,
+          "h": 2912
+        },
+        {
+          "type": "image",
+          "src": "/media/underwater-oracle/10.webp",
+          "w": 1632,
+          "h": 2912
+        }
+      ]
+    },
+    {
+      "slug": "shine-bright",
+      "title": "shine bright",
+      "items": [
+        {
+          "type": "image",
+          "src": "/media/shine-bright/01.webp",
+          "w": 1728,
+          "h": 2304
+        },
+        {
+          "type": "image",
+          "src": "/media/shine-bright/02.webp",
+          "w": 1728,
+          "h": 2304
+        },
+        {
+          "type": "image",
+          "src": "/media/shine-bright/03.webp",
+          "w": 1728,
+          "h": 2304
+        },
+        {
+          "type": "image",
+          "src": "/media/shine-bright/04.webp",
+          "w": 1800,
+          "h": 2234
+        },
+        {
+          "type": "image",
+          "src": "/media/shine-bright/05.webp",
+          "w": 1800,
+          "h": 2250
+        }
+      ]
+    }
+  ],
+  "extras": {
+    "reel": {
+      "type": "video",
+      "src": "/media/_site/reel.mp4",
+      "poster": "/media/_site/reel.jpg",
+      "w": 1080,
+      "h": 1920
+    },
+    "portrait": {
+      "type": "image",
+      "src": "/media/_site/portrait.webp",
+      "w": 1168,
+      "h": 1174
+    }
+  }
+}
