@@ -31,22 +31,23 @@ export default function Project() {
   // 3-col: fill the last row by widening the tail (rem 2 -> last 2 halves; rem 1 -> last 4 as 2x2)
   const rem = verticals % 3
   const tail = cols === 3 && verticals >= 4 ? (rem === 1 ? 4 : rem === 2 ? 2 : 0) : 0
+  const solo = p.items.length === 1 && !(p.items[0].w > p.items[0].h * 1.2)
   let vi = -1
 
   return (
     <main id="main" className="project" ref={scope} key={p.slug}>
       <section className="p-head">
         <h1>{p.title}</h1>
-        <p>{p.blurb}</p>
+        {p.blurb && <p>{p.blurb}</p>}
       </section>
-      <section className={`p-grid cols-${cols}`} aria-label={`${p.title} visuals`}>
+      <section className={`p-grid cols-${cols} ${solo ? 'solo' : ''}`} aria-label={`${p.title} visuals`}>
         {p.items.map((it, n) => {
           const wide = it.w > it.h * 1.2
           if (!wide) vi++
           const isTail = !wide && vi >= verticals - tail
           return (
             <div key={it.src} className={`p-cell ${wide ? 'wide' : ''} ${isTail ? 'tail' : ''}`}>
-              {wide ? (
+              {wide || solo ? (
                 <Media item={it} alt={`${p.title} ${n + 1}`} />
               ) : (
                 <div className="ph">

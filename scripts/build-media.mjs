@@ -50,6 +50,9 @@ async function media(file, dir, name) {
 }
 
 const projects = []
+// addedAt: first time a project was seen (persisted via the previous manifest); newest first in the site
+let prev = {}
+try { prev = Object.fromEntries(JSON.parse(fs.readFileSync(MANIFEST, 'utf8')).projects.map((p) => [p.slug, p.addedAt])) } catch {}
 const dirs = fs.readdirSync(SRC, { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name).sort()
 for (const [i, d] of dirs.entries()) {
   const slug = slugify(d)
@@ -64,9 +67,11 @@ for (const [i, d] of dirs.entries()) {
   // optional per-folder info.json: { title, year, tags, blurb }
   let info = {}
   try { info = JSON.parse(fs.readFileSync(path.join(SRC, d, 'info.json'), 'utf8')) } catch {}
-  projects.push({ slug, title: info.title || prettify(d), items, ...(info.year && { year: String(info.year) }), ...(info.tags && { tags: info.tags }), ...(info.blurb && { blurb: info.blurb }) })
+  projects.push({ slug, title: info.title || prettify(d), addedAt: prev[slug] || Math.round(fs.statSync(path.join(SRC, d)).birthtimeMs), items, ...(info.year && { year: String(info.year) }), ...(info.tags && { tags: info.tags }), ...(info.blurb && { blurb: info.blurb }) })
   console.log(slug, items.length)
 }
+
+projects.sort((a, b) => b.addedAt - a.addedAt)
 
 // extras: reel + portrait
 const extras = {}

@@ -20,7 +20,7 @@ export const site = {
 }
 
 // ---- EDIT ME: per-project details (keyed by slug). Defaults apply otherwise --
-const defaults = { year: '2026', tags: 'AI visual direction', blurb: 'Placeholder description for this project.' }
+const defaults = { year: '', tags: '', blurb: '' }
 const meta = {
   // 'balloon-dreams': { year: '2026', tags: 'Fashion editorial · Video', blurb: '…' },
 }
