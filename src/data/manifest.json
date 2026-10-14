@@ -322,7 +322,15 @@
     {
       "slug": "it-was-all-a-dream",
       "title": "It Was all a dream",
-      "items": []
+      "items": [
+        {
+          "type": "video",
+          "src": "/media/it-was-all-a-dream/01.mp4",
+          "poster": "/media/it-was-all-a-dream/01.jpg",
+          "w": 480,
+          "h": 854
+        }
+      ]
     },
     {
       "slug": "me-and-the-imposible",
