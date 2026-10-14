@@ -4,7 +4,7 @@ import path from 'node:path'
 import { execFileSync } from 'node:child_process'
 import sharp from 'sharp'
 
-const SRC = '/Users/rosedays/Desktop/Proyectos/AI portfolio/Portafolio Curado Rosedays'
+const SRC = process.env.MEDIA_SRC || '/Users/rosedays/Projects/AIportafolio26'
 const OUT = path.resolve('public/media')
 const MANIFEST = path.resolve('src/data/manifest.json')
 const IMG = /\.(png|jpe?g)$/i
@@ -60,7 +60,10 @@ for (const [i, d] of dirs.entries()) {
     if (it) items.push(it)
   }
   // cover: prefer first image, else first video poster
-  projects.push({ slug, title: prettify(d), items })
+  // optional per-folder info.json: { title, year, tags, blurb }
+  let info = {}
+  try { info = JSON.parse(fs.readFileSync(path.join(SRC, d, 'info.json'), 'utf8')) } catch {}
+  projects.push({ slug, title: info.title || prettify(d), items, ...(info.year && { year: String(info.year) }), ...(info.tags && { tags: info.tags }), ...(info.blurb && { blurb: info.blurb }) })
   console.log(slug, items.length)
 }
 
