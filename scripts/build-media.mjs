@@ -8,7 +8,7 @@ const SRC = process.env.MEDIA_SRC || '/Users/rosedays/Projects/AIportafolio26'
 const OUT = path.resolve('public/media')
 const MANIFEST = path.resolve('src/data/manifest.json')
 const IMG = /\.(png|jpe?g)$/i
-const VID = /\.mp4$/i
+const VID = /\.(mp4|mov|m4v)$/i
 
 const slugify = (s) =>
   s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
@@ -60,6 +60,7 @@ for (const [i, d] of dirs.entries()) {
     if (it) items.push(it)
   }
   // cover: prefer first image, else first video poster
+  if (!items.length) { console.log('skip (no media):', d); continue }
   // optional per-folder info.json: { title, year, tags, blurb }
   let info = {}
   try { info = JSON.parse(fs.readFileSync(path.join(SRC, d, 'info.json'), 'utf8')) } catch {}
