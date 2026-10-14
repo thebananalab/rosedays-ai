@@ -5,8 +5,11 @@ import { gsap, getLenis } from '../lib/motion'
 import { TLink } from '../components/Transition'
 import { projects } from '../data/projects'
 
-// the carousel puts its LAST item at the front: rotate so the newest project is the cover
-const ordered = [...projects.slice(1), ...projects.slice(0, 1)]
+// carousel wraps x into [-F, F): the front-most tile is index ceil(n/2). Rotate so the newest project sits there,
+// with older ones receding behind it in order.
+const n = projects.length
+const front = Math.ceil(n / 2)
+const ordered = projects.map((_, k) => projects[(k - front + n) % n])
 const items = ordered.map((p) => ({ src: p.cover.src, title: p.title, slug: p.slug }))
 
 export default function Home() {
