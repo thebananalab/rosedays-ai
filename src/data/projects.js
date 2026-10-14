@@ -33,6 +33,9 @@ export const projects = manifest.projects.map((raw, i) => {
   return {
     ...defaults,
     ...meta[p.slug],
+    ...(p.year && { year: p.year }),
+    ...(p.tags && { tags: p.tags }),
+    ...(p.blurb && { blurb: p.blurb }),
     slug: p.slug,
     title: p.title,
     index: String(i + 1).padStart(2, '0'),
