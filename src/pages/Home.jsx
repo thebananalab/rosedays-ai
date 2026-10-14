@@ -5,7 +5,9 @@ import { gsap, getLenis } from '../lib/motion'
 import { TLink } from '../components/Transition'
 import { projects } from '../data/projects'
 
-const items = projects.map((p) => ({ src: p.cover.src, title: p.title, slug: p.slug }))
+// the carousel puts its LAST item at the front: rotate so the newest project is the cover
+const ordered = [...projects.slice(1), ...projects.slice(0, 1)]
+const items = ordered.map((p) => ({ src: p.cover.src, title: p.title, slug: p.slug }))
 
 export default function Home() {
   const canvas = useRef(null)
